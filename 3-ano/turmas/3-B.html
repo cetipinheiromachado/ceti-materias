@@ -10,10 +10,17 @@
             text-align: center;
         }
 
+        div {
+            overflow-x: auto;
+        }
+
         table {
             border-collapse: collapse;
             width: 700px;
             position: relative;
+            display: block;
+            margin: auto;
+            text-align: center;
         }
         
         col#primeira {
@@ -21,9 +28,12 @@
         }
 
         caption {
-            background-color: gray;
+            background-color: white;
             padding: 8px;
             font-weight: bold;
+            border-top: 1px solid black;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
         }
 
         thead > tr > th {
@@ -32,11 +42,11 @@
         }
 
         tbody > tr:nth-child(even) {
-            background-color: lightgray;
+            background-color: #F2DC5D;
         }
 
         th {
-            background-color: lightgray;
+            background-color: #F2DC5D;
         }
 
         th, td {

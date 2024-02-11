@@ -23,14 +23,18 @@ main {
 
 iframe {
     width: 95vw;
-    height: 400px;
+    height: 550px;
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+    display: block;
 }
 
 ul {
     columns: 3;
     list-style-type: none;
     margin: auto;
-    padding: auto;
+    padding: 20px;
     text-align: center;
 }
 
