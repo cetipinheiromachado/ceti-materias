@@ -11,9 +11,9 @@ body {
 
 header {
     margin: auto;
-    padding: auto;
+    padding: 10px;
     text-align: center;
-    background-color: lightgray;
+    background-color: #F2DC5D;
 }
 
 main {
@@ -22,7 +22,7 @@ main {
 }
 
 iframe {
-    width: 95vw;
+    width: 60vw;
     height: 550px;
     margin: auto;
     padding-top: 20px;
@@ -36,6 +36,24 @@ ul {
     margin: auto;
     padding: 20px;
     text-align: center;
+}
+
+li {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+li:hover {
+    background-color: #F2DC5D;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
 }
 
 div {
