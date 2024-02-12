@@ -1,3 +1,13 @@
+@charset "UTF-8";
+
+:root {
+    --cor01: #FFFFCC;
+    --cor02: #FAED7D;
+    --cor03: #DECC61;
+    --cor04: #A09C52;
+    --cor05: #858C51;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -35,11 +45,11 @@ thead > tr > th {
 }
 
 tbody > tr:nth-child(even) {
-    background-color: #F2DC5D;
+    background-color: var(--cor02);
 }
 
 th {
-    background-color: #F2DC5D;
+    background-color: var(--cor02);
 }
 
 th, td {

@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+:root {
+    --cor01: #FFFFCC;
+    --cor02: #FAED7D;
+    --cor03: #DECC61;
+    --cor04: #A09C52;
+    --cor05: #858C51;
+}
+
 * {
     padding: 0px;
     margin: 0px;
@@ -13,7 +21,7 @@ header {
     margin: auto;
     padding: 10px;
     text-align: center;
-    background-color: #F2DC5D;
+    background-color: var(--cor02);
 }
 
 main {
@@ -44,7 +52,8 @@ li {
 }
 
 li:hover {
-    background-color: #F2DC5D;
+    background-color: var(--cor02);
+    transition-duration: 0.4s;
 }
 
 a {
@@ -53,7 +62,7 @@ a {
 }
 
 a:hover {
-    color: white;
+    font-weight: bold;
 }
 
 div {
