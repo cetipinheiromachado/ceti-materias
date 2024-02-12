@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+ul {
+    columns: 3;
+    display: block;
+}
