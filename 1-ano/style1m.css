@@ -68,18 +68,12 @@ div {
 }
 
 footer {
-    background-color: var(--cor05);
-    color: white;
-    text-align: center;
+    background-color: var(--cor02);
     padding: 10px;
+    text-align: center;
     font-size: 1.2em;
 }
 
-footer a {
-    color: white;
-    text-decoration: none;
-}
-
-a#verdinho:hover {
-    color: var(--cor01);
+footer a:hover {
+    font-weight: bold;
 }
