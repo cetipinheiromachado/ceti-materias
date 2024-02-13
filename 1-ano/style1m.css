@@ -61,16 +61,25 @@ a {
     color: black;
 }
 
-a:hover {
-    font-weight: bold;
-}
-
 div {
     margin: auto;
     padding: auto;
     text-align: center;
 }
 
-iframe {
+footer {
+    background-color: var(--cor05);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2em;
+}
 
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+a#verdinho:hover {
+    color: var(--cor01);
 }

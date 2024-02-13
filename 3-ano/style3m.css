@@ -61,7 +61,7 @@ a {
     color: black;
 }
 
-a:hover {
+a.black:hover {
     font-weight: bold;
 }
 
@@ -71,6 +71,13 @@ div {
     text-align: center;
 }
 
-iframe {
+footer {
+    background-color: var(--cor02);
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2em;
+}
 
+a#amarelinho:hover {
+    color: darkorange;
 }
