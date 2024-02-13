@@ -14,7 +14,11 @@
 }
 
 body {
-    background-color: rgba(144, 238, 144, 0.336);
+    background-color: var(--cor05);
+}
+
+main {
+    background-color: #D9F9D9;
 }
 
 header {
@@ -82,9 +86,10 @@ a.bkks:hover {
 footer {
     background-color: var(--cor05);
     color: white;
-    padding: 10px 10px 100px 10px;
+    padding: 10px;
     text-align: center;
     font-size: 1.2em;
+    margin: auto;
 }
 
 footer a {
