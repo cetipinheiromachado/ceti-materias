@@ -82,7 +82,7 @@ a.bkks:hover {
 footer {
     background-color: var(--cor05);
     color: white;
-    padding: 10px;
+    padding: 10px 10px 100px 10px;
     text-align: center;
     font-size: 1.2em;
 }
