@@ -80,18 +80,17 @@ a.bkks:hover {
 }
 
 footer {
-    background-color: var(--cor03);
+    background-color: var(--cor05);
     color: white;
-    text-align: center;
     padding: 10px;
+    text-align: center;
     font-size: 1.2em;
-    margin: 0px;
 }
 
 footer a {
     color: white;
 }
 
-a#sa:hover {
-    color: lime;
+footer a:hover {
+    color: #F2A007;
 }
