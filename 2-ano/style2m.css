@@ -15,6 +15,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor02);
 }
 
 header {
@@ -25,8 +26,7 @@ header {
 }
 
 main {
-    margin: auto;
-    padding: auto;
+    background-color: white;
 }
 
 iframe {
@@ -74,10 +74,11 @@ div {
 footer {
     background-color: var(--cor02);
     text-align: center;
-    padding: 10px;
+    padding: 7px;
     font-size: 1.2em;
+    margin-top: 50px;
 }
 
-a#azulzinho:hover {
-    color: white;
+footer a:hover {
+    font-weight: bold;
 }
