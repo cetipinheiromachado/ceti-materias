@@ -57,7 +57,7 @@ ul a {
     color: black;
     border: 1px solid black;
     padding: 20px;
-    margin: auto;
+    margin: auto 10px;
     display: block;
     transition-duration: 0.2s;
 }
