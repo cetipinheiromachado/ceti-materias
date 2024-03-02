@@ -53,19 +53,17 @@ ul {
     text-align: center;
 }
 
-li {
-    border: 1px solid black;
-    padding: 5px;
-}
-
-li:hover {
-    background-color: var(--cor02);
-    transition-duration: 0.4s;
-}
-
-a {
+ul a {
     text-decoration: none;
     color: black;
+    border: 1px solid black;
+    padding: 10px 70px;
+}
+
+ul a:hover {
+    font-weight: bold;
+    background-color: var(--cor02);
+    transition-duration: 0.4s;
 }
 
 div {
@@ -80,6 +78,11 @@ footer {
     text-align: center;
     font-size: 1.2em;
     margin-top: 50px;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
 }
 
 footer a:hover {
