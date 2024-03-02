@@ -36,7 +36,6 @@ p#art {
 }
 
 ul {
-    
     display: block;
     list-style-type: none;
     margin: auto;
@@ -44,58 +43,50 @@ ul {
     font-size: 1.3em;
 }
 
-li {
-    border: 1px solid black;
-    padding: 10px;
-    width: 20vw;
-    margin: auto;
-    display: block;
-    text-align: center;
-}
-
-li#primeiro {
-    background-color: #74B88B;
-    padding: 20px;
-    margin: 60px auto 60px auto;
-    transition-duration: 0.4s;
-}
-
-li#segundo {
-    background-color: #6BCCF2;
-    padding: 20px;
-    margin: 60px auto 60px auto;
-    transition-duration: 0.4s;
-}
-
-li#terceiro {
-    background-color: #FAED7D;
-    padding: 20px;
-    margin: 60px auto 60px auto;
-    transition-duration: 0.4s;
-}
-
-a {
+a.bkks {
     text-decoration: none;
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px;
+    display: block;
+    margin: auto;
+    width: 20vw;
+    margin: 40px auto;
     color: black;
+    transition-duration: 0.2s;
 }
 
-a.bkks:hover {
+a#priserie {
+    background-color: #74B88B;
+}
+
+a#segserie {
+    background-color: #6BCCF2;
+}
+
+a#terserie {
+    margin-bottom: 110px;
+    background-color: #FAED7D;
+}
+
+ul a:hover {
     font-weight: bold;
 }
 
 footer {
     background-color: var(--cor05);
-    color: white;
     padding: 10px;
     text-align: center;
     font-size: 1.2em;
-    margin: auto;
+    margin: 0px;
+    color: white;
 }
 
 footer a {
+    text-decoration: none;
     color: white;
 }
 
 footer a:hover {
-    color: #F2A007;
+    color: var(--cor02);
 }
