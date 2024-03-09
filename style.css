@@ -15,15 +15,11 @@
     --cor02: #F2A007;
     --cor03: #004D6E;
     --cor04: #2E8C14;
-    --cor05: #1F6B1A;
+    --cor05: #5ead2d;
 }
 
 body {
-    background-color: var(--cor05);
-}
-
-main {
-    background-color: #d2e0d2;
+    background-color: #FFFAF0;
 }
 
 header {
@@ -63,34 +59,33 @@ a.bkks {
 
 a#priserie {
     transition-duration: 0.4s;
-    border: 2px solid #910bff9c;
+    border: 2px solid #5EAD2D;
     border-radius: 10px;
-    color: #910bff9c;
+    color: #5EAD2D;
     font-weight: bolder;
     font-size: 1.1em;
 }
 
 a#priserie:hover {
-    background-color: #74B88B;
+    background-color: #5EAD2D;
     color: white;
 }
 
 a#segserie {
     transition-duration: 0.4s;
-    border: 2px solid #910bff9c;
+    border: 2px solid #78BEE9;
     border-radius: 10px;
-    color: #910bff9c;
+    color: #78BEE9;
     font-weight: bolder;
     font-size: 1.1em;
 }
 
 a#segserie:hover {
-    background-color: #6BCCF2;
+    background-color: #78BEE9;
     color: white;
 }
 
 a#terserie {
-    margin-bottom: 110px;
     transition-duration: 0.4s;
     border: 2px solid #910bff9c;
     border-radius: 10px;
@@ -102,23 +97,4 @@ a#terserie {
 a#terserie:hover {
     background-color: #910bff9c;
     color: white;
-}
-
-footer {
-    background-color: var(--cor05);
-    padding: 10px;
-    text-align: center;
-    font-size: 1.2em;
-    margin: 0px;
-    color: white;
-}
-
-footer a {
-    text-decoration: none;
-    color: white;
-}
-
-footer a:hover {
-    color: var(--cor02);
-    transition-duration: 0.7s;
 }

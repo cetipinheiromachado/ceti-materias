@@ -6,11 +6,7 @@
 }
 
 :root {
-    --cor01: #7CC494;
-    --cor02: #8AFF42;
-    --cor03: #649E77;
-    --cor04: #4C785B;
-    --cor05: #24382A;
+    --cor01: #6dc736;
 }
 
 body {
@@ -50,11 +46,11 @@ thead > tr > th {
 }
 
 tbody > tr:nth-child(even) {
-    background-color: var(--cor02);
+    background-color: var(--cor01);
 }
 
 th {
-    background-color: var(--cor02);
+    background-color: var(--cor01);
 }
 
 th, td {
