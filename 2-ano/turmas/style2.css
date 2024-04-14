@@ -19,6 +19,7 @@ div {
 }
 
 table {
+    font-size: 0.8em;
     border-collapse: collapse;
     width: 700px;
     position: relative;

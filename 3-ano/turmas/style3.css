@@ -6,7 +6,7 @@
 }
 
 :root {
-    --cor01: #910bff9c;
+    --cor01: #7217bd9c;
 }
 
 body {
@@ -19,6 +19,7 @@ div {
 }
 
 table {
+    font-size: 0.8em;
     border-collapse: collapse;
     width: 700px;
     position: relative;

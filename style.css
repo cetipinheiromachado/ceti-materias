@@ -51,7 +51,7 @@ a.bkks {
     padding: 20px;
     display: block;
     margin: auto;
-    width: 20vw;
+    width: 30vw;
     margin: 40px auto;
     color: black;
     transition-duration: 0.2s;
@@ -87,14 +87,14 @@ a#segserie:hover {
 
 a#terserie {
     transition-duration: 0.4s;
-    border: 2px solid #910bff9c;
+    border: 2px solid #7217bd9c;
     border-radius: 10px;
-    color: #910bff9c;
+    color: #7217bd9c;
     font-weight: bolder;
     font-size: 1.1em;
 }
 
 a#terserie:hover {
-    background-color: #910bff9c;
+    background-color: #7217bd9c;
     color: white;
 }
