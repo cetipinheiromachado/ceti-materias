@@ -25,6 +25,29 @@ header {
     background-color: var(--cor01);
 }
 
+nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+nav > a {
+   margin: 10px;
+   border: 1.5px solid black;
+   border-radius: 15px;
+   padding: 10px;
+   text-decoration: none;
+   text-align: center;
+   color: black;
+   width: 18vw;
+}
+
+nav > a:hover {
+    background-color: var(--cor01);
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
 main {
     margin: auto;
     padding: auto;
