@@ -1,12 +1,7 @@
 @charset "UTF-8";
 
-::-webkit-scrollbar {
-    width: 0px;
-    height: 0px;
-}
-
 :root {
-    --cor01: #78BEE9;
+    --cor01: #53a098;
 }
 
 body {

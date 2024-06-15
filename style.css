@@ -19,7 +19,7 @@
 }
 
 body {
-    background-color: #FFFAF0;
+    background-color: #f5f4f4;
 }
 
 header {
@@ -59,42 +59,42 @@ a.bkks {
 
 a#priserie {
     transition-duration: 0.4s;
-    border: 2px solid #5EAD2D;
+    border: 2px solid #04D939;
     border-radius: 10px;
-    color: #5EAD2D;
+    color: #04D939;
     font-weight: bolder;
     font-size: 1.1em;
 }
 
 a#priserie:hover {
-    background-color: #5EAD2D;
+    background-color: #04D939;
     color: white;
 }
 
 a#segserie {
     transition-duration: 0.4s;
-    border: 2px solid #78BEE9;
+    border: 2px solid #53a098;
     border-radius: 10px;
-    color: #78BEE9;
+    color: #53a098;
     font-weight: bolder;
     font-size: 1.1em;
 }
 
 a#segserie:hover {
-    background-color: #78BEE9;
+    background-color: #53a098;
     color: white;
 }
 
 a#terserie {
     transition-duration: 0.4s;
-    border: 2px solid #7217bd9c;
+    border: 2px solid #8E45BF;
     border-radius: 10px;
-    color: #7217bd9c;
+    color: #8E45BF;
     font-weight: bolder;
     font-size: 1.1em;
 }
 
 a#terserie:hover {
-    background-color: #7217bd9c;
+    background-color: #8E45BF;
     color: white;
 }
